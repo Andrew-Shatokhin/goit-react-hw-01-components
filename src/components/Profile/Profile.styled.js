@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Card = styled.div`
   background-color: white;
   padding-top: 10px;
+  margin-bottom: 50px;
   width: 300px;
   border-radius: 10px;
   box-shadow: 10px 10px 17px -7px rgba(0, 0, 0, 0.75);
@@ -32,6 +33,7 @@ export const Stats = styled.ul`
   padding: 0;
   margin: 0;
   list-style: none;
+
   background-color: rgb(234, 237, 237);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -41,6 +43,9 @@ export const Item = styled.li`
   flex-direction: column;
   text-align: center;
   padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 1px solid black; */
 `;
 
 export const Label = styled.span`
