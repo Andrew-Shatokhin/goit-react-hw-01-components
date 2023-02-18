@@ -45,7 +45,6 @@ export const Item = styled.li`
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
-  /* border: 1px solid black; */
 `;
 
 export const Label = styled.span`
