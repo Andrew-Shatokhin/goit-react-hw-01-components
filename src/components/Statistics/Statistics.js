@@ -7,7 +7,8 @@ const getRandomHexColor = () =>
 export const Statistics = ({ title, stats }) => {
   return (
     <Section>
-      <Title>{title}</Title>
+      {/* <Title>{title}</Title> */}
+      {title && <Title>{title}</Title>}
 
       <List>
         {stats.map(stat => {
@@ -17,7 +18,6 @@ export const Statistics = ({ title, stats }) => {
               style={{ backgroundColor: getRandomHexColor() }}
             >
               <Label>{stat.label}</Label>
-
               <span className="percentage">{stat.percentage}%</span>
             </Item>
           );
